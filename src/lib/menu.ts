@@ -4,6 +4,7 @@ export type MenuDay = {
   date: string;
   main: string;
   vegetarian: string;
+  sides?: string[];
 };
 
 export type MenuData = {

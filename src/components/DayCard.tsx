@@ -12,6 +12,9 @@ export function DayCard({ day }: { day: MenuDay }) {
       {day.vegetarian !== day.main && (
         <p className="veg">{day.vegetarian}</p>
       )}
+      {day.sides && day.sides.length > 0 && (
+        <p className="sides">{day.sides.join(', ')}</p>
+      )}
     </article>
   );
 }

@@ -19,6 +19,9 @@ export function WeekList({ days, today }: { days: string[]; today: string }) {
                   {day.vegetarian !== day.main && (
                     <span className="veg">{day.vegetarian}</span>
                   )}
+                  {day.sides && day.sides.length > 0 && (
+                    <span className="sides">{day.sides.join(', ')}</span>
+                  )}
                 </>
               ) : (
                 <span className="missing">Ei tietoa</span>
