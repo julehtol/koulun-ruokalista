@@ -73,13 +73,17 @@ Iso kortti: viikonpäivän nimi + päivämäärä, pääruoka isolla, kasvisvaih
 **Viikonloppulogiikka:** jos tänään on lauantai tai sunnuntai, näytetään seuraavan maanantain menu ja otsikossa lukee "Maanantai 24.8." (ilman erillistä "seuraava kouluruokapäivä" -tekstiä — pidetään yksinkertaisena).
 
 ### Huomenna
-Sama kortti kuin Tänään, huomiselle. Perjantain "huomenna" = seuraava maanantai. Lauantaiden ja sunnuntaiden "huomenna" = seuraava arkipäivä joka on maanantai.
+Sama kortti kuin Tänään, huomiselle. Koska "huomenna" tarkoittaa käytännössä *seuraavaa kouluruokapäivää*, viikonloppu-arvot skipataan:
+- Perjantain "huomenna" = seuraava maanantai.
+- Lauantain "huomenna" = seuraava maanantai (koska Tänään näyttää jo tulevaa maanantaita, Huomenna on tiistai — täsmennys: Tänään=ma, Huomenna=ti).
+- Sunnuntain "huomenna" = tiistai (Tänään=ma, Huomenna=ti).
+Toisin sanoen: kun viikonloppu-hyppy on siirtänyt Tänään-näkymän maanantaihin, Huomenna näyttää tiistain — ei toista maanantaita.
 
 ### Tällä viikolla
 Nykyisen viikon (ma–pe) rivit: viikonpäivä + pvm + pääruoka + kasvis. Nykyinen päivä korostettu keltaisella taustalla. Viikonloppuisin "tällä viikolla" tarkoittaa **alkavaa** viikkoa (eli sitä samaa mikä on "ensi viikolla" perjantaina). Perustelu: viikonloppu on lähempänä alkavaa viikkoa mentaalisti.
 
 ### Ensi viikolla
-Seuraavan ma–pe viikon rivit. Viikkoraja määritetään ISO-viikkojen mukaan (maanantai on ensimmäinen päivä).
+Seuraavan ma–pe viikon rivit. Viikkoraja määritetään ISO-viikkojen mukaan (maanantai on ensimmäinen päivä). Viikonloppuisin "ensi viikolla" tarkoittaa sitä viikkoa, joka alkaa "tällä viikolla" -näkymän jälkeen (eli kahden viikon päästä olevaa maanantaita seuraavaa viikkoa). Toisin sanoen: viikonloput lasketaan aina *päättyvästä* viikosta, ja "tämä viikko" siirtyy jo alkavaan.
 
 ### Puuttuvan datan käsittely
 Jos pyydetty päivä ei löydy `days`-taulukosta:
