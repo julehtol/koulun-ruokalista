@@ -7,3 +7,5 @@ dist
 .env.local
 .vercel
 coverage
+next-env.d.ts
+*.tsbuildinfo
