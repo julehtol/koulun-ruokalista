@@ -1,9 +1,9 @@
 {
   "school": "Peruskoulut, lukio ja EsEDU (Keskuskatu)",
   "source": {
-    "pdfUrl": "https://pieksamaentukipalvelut.fi/wp-content/uploads/2026/09/7.-RUOKALISTA-Koulut-7.9.-18.10.2026.pdf",
+    "pdfUrl": "https://pieksamaentukipalvelut.fi/wp-content/uploads/2026/10/8-RUOKALISTA-Koulut-19.10.-29.11-2026.pdf",
     "listPageUrl": "https://pieksamaentukipalvelut.fi/ruokalistat/",
-    "updatedAt": "2026-09-04"
+    "updatedAt": "2026-11-08"
   },
   "days": [
     { "date": "2026-07-27", "main": "Aurinkoinen broilerkastike", "vegetarian": "Kookos-kasvispata", "sides": ["Riisi-monivilja"] },
@@ -65,6 +65,31 @@
     { "date": "2026-10-13", "main": "Uunimakkara", "vegetarian": "Vegenakki", "sides": ["Porkkana-perunasose"] },
     { "date": "2026-10-14", "main": "Broilerikastike", "vegetarian": "Nyhtökaurakastike", "sides": ["Ohrahelmi"] },
     { "date": "2026-10-15", "main": "Palermon pasta", "vegetarian": "Palermon pasta", "sides": ["Herne"] },
-    { "date": "2026-10-16", "main": "Jauhelihakeitto", "vegetarian": "Kurpitsa-linssikeitto", "sides": ["Sekaleipä", "Ruisleipä"] }
+    { "date": "2026-10-16", "main": "Jauhelihakeitto", "vegetarian": "Kurpitsa-linssikeitto", "sides": ["Sekaleipä", "Ruisleipä"] },
+    { "date": "2026-10-26", "main": "Makkarakeitto", "vegetarian": "Tomaattinen minestronekeitto", "sides": ["Sekaleipä", "Ruisleipä"] },
+    { "date": "2026-10-27", "main": "Kalapuikot", "vegetarian": "Vegepuikko", "sides": ["Perunasose", "Ruohosipulidippi"] },
+    { "date": "2026-10-28", "main": "Ohrapuuro", "vegetarian": "Kookos-bataattikeitto", "sides": ["Kauraleipä", "Kaiserwursti"] },
+    { "date": "2026-10-29", "main": "Broileririisivuoka", "vegetarian": "Vihannesriisivuoka", "sides": ["Herne"] },
+    { "date": "2026-10-30", "main": "Lihapullat, kastike", "vegetarian": "Kasvispyörykät, kastike", "sides": ["Perunat"] },
+    { "date": "2026-11-02", "main": "Butter Chicken", "vegetarian": "Murea Red Curry", "sides": ["Riisi", "Parsakaali"] },
+    { "date": "2026-11-03", "main": "Pinaattiohukaiset", "vegetarian": "Pinaattiohukaiset", "sides": ["Perunasose", "Puolukkahillo"] },
+    { "date": "2026-11-04", "main": "Jauhelihakastike", "vegetarian": "Kasvisbolognese", "sides": ["Perunat", "Herne"] },
+    { "date": "2026-11-05", "main": "Tonnikalapastavuoka", "vegetarian": "Kasviskaalilaatikko", "sides": ["Porkkanaviipale"] },
+    { "date": "2026-11-06", "main": "Hernekeitto", "vegetarian": "Bataattisosekeitto", "sides": ["Sekaleipä", "Juusto"] },
+    { "date": "2026-11-09", "main": "Nakkikastike", "vegetarian": "Chili Sin Carne", "sides": ["Perunat"] },
+    { "date": "2026-11-10", "main": "Broilerinugetti", "vegetarian": "Kasvisnugetti", "sides": ["Perunasose", "Currydippi"] },
+    { "date": "2026-11-11", "main": "Kahdenkalan keitto", "vegetarian": "Kasvissosekeitto", "sides": ["Sämpylä", "Ruisleipä"] },
+    { "date": "2026-11-12", "main": "Jauhelihakiusaus", "vegetarian": "Intialainen Vegan curry", "sides": ["Vihannesmix"] },
+    { "date": "2026-11-13", "main": "Pinaattikeitto", "vegetarian": "Pinaattikeitto", "sides": ["Riisipiirakka", "Sekaleipä", "Kananmuna"] },
+    { "date": "2026-11-16", "main": "Lempeä kanakeitto", "vegetarian": "Borch-kasviskeitto, smetana", "sides": ["Sekaleipä", "Ruisleipä"] },
+    { "date": "2026-11-17", "main": "Kasvisbolognese", "vegetarian": "Kasvisbolognese", "sides": ["Minispagetti", "Herne-maissi"] },
+    { "date": "2026-11-18", "main": "Kirjolohipihvit", "vegetarian": "Marokko-kasvispihvi", "sides": ["Perunat", "Kermaviili-tillikastike"] },
+    { "date": "2026-11-19", "main": "Lihamakaronilaatikko", "vegetarian": "Kasvis-makaronilaatikko", "sides": ["Parsakaali"] },
+    { "date": "2026-11-20", "main": "Mannapuuro", "vegetarian": "Kasvissosekeitto", "sides": ["Lihakukkonen", "Sekaleipä"] },
+    { "date": "2026-11-23", "main": "Lohikastike", "vegetarian": "Kasvistikkamasala", "sides": ["Kierrepasta"] },
+    { "date": "2026-11-24", "main": "Uunimakkara", "vegetarian": "Vegenakki", "sides": ["Porkkana-perunasose"] },
+    { "date": "2026-11-25", "main": "Broilerikastike", "vegetarian": "Nyhtökaurakastike", "sides": ["Ohrahelmi"] },
+    { "date": "2026-11-26", "main": "Palermon pasta", "vegetarian": "Palermon pasta", "sides": ["Herne"] },
+    { "date": "2026-11-27", "main": "Jauhelihakeitto", "vegetarian": "Kurpitsa-linssikeitto", "sides": ["Sekaleipä", "Ruisleipä"] }
   ]
 }
